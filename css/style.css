@@ -278,3 +278,127 @@ body {
 .hotel-gallery img {
     max-width: 280px;
 }
+
+.price-inner {
+    display: flex;
+}
+
+.price-on {
+    margin-right: 70px;
+    max-width: 530px;
+}
+
+.price-on-title, 
+.price-off-title {
+    font-family: 'RobotoCondensed-Regular';
+    margin-bottom: 50px;
+    line-height: 28px;
+    font-size: 24px;
+}
+
+.price-title span {
+    margin-left: 120px;
+}
+
+.price-list-item {
+    margin-bottom: 20px;
+}
+
+.price{
+    background-image: url(../images/air-ball.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.contacts-inner {
+    display: flex;
+    justify-content: space-between;  
+}
+
+.contacts-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contacts-date,
+.contacts-price {
+    font-family: 'balqis';
+    color: #E2AB3F;
+    font-size: 96px;
+    line-height: 100px;
+    font-weight: 300;
+}
+
+.contacts-date {
+    margin-bottom: 20px;
+}
+
+.contacts-price {
+    margin-left: 120px;
+}
+
+.contacts-date span,
+.contacts-price span {
+    display: block;
+    font-family: 'RobotoCondensed-LightItalic';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    margin-top: -10px;
+    margin-left: 205px;
+}
+
+.contacts-form {
+    min-width: 385px;
+    margin: 0 auto;
+}
+
+.contacts-form-title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 50px;
+    font-family: 'RobotoCondensed-Regular';
+}
+
+.contacts-form-input {
+    border: 1px solid #E2AB3F;
+    display: block;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 100%;
+    padding: 0 30px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+    font-family: 'RobotoCondensed-Light';
+}
+
+.contacts-form-input::placeholder{
+    color: #000;
+}
+
+.contact-form-btn {
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    border: 1px solid #E2AB3F;
+    background-color: transparent;
+    padding: 11px 45px;
+    font-family: 'RobotoCondensed-Light';
+    cursor: pointer;
+}
+
+.footer {
+   background-image: url(../images/footerBG.jpg); 
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-position: bottom center;
+   padding-top: 96px;
+}
+
+
+
+
+
