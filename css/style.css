@@ -481,6 +481,20 @@ body {
     }
 }
 
+@media (max-width: 1060px) {
+    .footer-text {
+        font-size: 60px;
+        line-height: 70px;
+        padding: 5%;
+    }
+
+    .contacts-images {
+        height: 70vh;
+        width: 50%;
+        object-fit: cover;
+    }
+}
+
 @media (max-width: 991px) {
     .page-section {
         margin: 100px 0;
@@ -503,8 +517,8 @@ body {
 
     .our-trip-program {
         display: flex;
-        justify-content: center;
-        text-align: center;
+        justify-content: flex-start;
+        text-align: start;
         flex-direction: column;
         margin: 0 auto;
     }
@@ -539,10 +553,10 @@ body {
         justify-content: center;
     }
 
-    .footer-text {
-        font-size: 50px;
-        line-height: 70px;
-        padding: 5%;
+    .contacts-images {
+        height: 70vh;
+        width: 100%;
+        object-fit: cover;
     }
 }
 
@@ -648,6 +662,10 @@ body {
 }
 
 @media (max-width: 370px) {
+    .fairy-tail-container, 
+    .our-trip-container {
+        padding: 0 10px;
+    }
     .header_title {
         font-size: 60px;
         line-height: 80px;
@@ -681,6 +699,22 @@ body {
     .footer-text {
         font-size: 30px;
         line-height: 60px;
+    }
+    .footer-contacts {
+        width: 250px;
+        height: 300px;
+        background-image: none;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+    
+    .footer-contacts-title {
+        padding-top: 30px;
+        font-size: 60px;
+        line-height: 70px;
+        color: #E2AB3F;
+        font-family: 'balqis';
+        margin-bottom: 30px;
     }
 }
 
